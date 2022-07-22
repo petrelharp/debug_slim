@@ -84,6 +84,8 @@ jobs:
 
       - name: C tests
         run: |
+          source ~/.profile
+          conda activate anaconda-client-env
           git clone https://github.com/tskit-dev/tskit
           git clone https://github.com/tskit-dev/kastore
           cd tskit/c
