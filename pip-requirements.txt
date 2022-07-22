@@ -1,5 +1,0 @@
-setuptools
-filelock
-numpy
-pytest
-pytest-xdist
