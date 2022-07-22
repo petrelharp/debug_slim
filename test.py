@@ -10,4 +10,4 @@ for var in ts.variants(isolated_as_missing=False):
         # print("msp:", msp_genotypes)
         x += len(msp_genotypes)
 
-print("Done: " + x)
+print(f"Done: {x}")
