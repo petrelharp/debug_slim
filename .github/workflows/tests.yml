@@ -86,6 +86,4 @@ jobs:
         run: |
           source ~/.profile
           conda activate anaconda-client-env
-          export PATH=$PATH:$PWD/Release
-          echo $PATH
-          cd treerec/tests && python -m pytest -xv
+          python3 test.py
