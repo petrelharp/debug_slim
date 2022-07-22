@@ -73,8 +73,8 @@ jobs:
           mkdir -p /usr/local/miniconda/envs
           sudo cp -r ~/osx-conda /usr/local/miniconda/envs/anaconda-client-env
 
-      # - name: Setup tmate session
-      #   uses: mxschmitt/action-tmate@v3
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
 
       - name: Python tests
         run: |
