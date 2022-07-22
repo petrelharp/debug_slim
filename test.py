@@ -8,6 +8,6 @@ for var in ts.variants(isolated_as_missing=False):
         geno = var.genotypes[k]
         msp_genotypes = var.alleles[geno].split(",")
         # print("msp:", msp_genotypes)
-        x += len(msp.genotypes)
+        x += len(msp_genotypes)
 
 print("Done: " + x)
