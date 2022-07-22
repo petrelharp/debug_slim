@@ -84,8 +84,8 @@ jobs:
 
       - name: C tests
         run: |
-          git clone git@github.com:tskit-dev/tskit
-          git clone git@github.com:tskit-dev/kastore
+          git clone https://github.com/tskit-dev/tskit
+          git clone https://github.com/tskit-dev/kastore
           gcc -Itskit/c -Ikastore/c -Ltskit/c/build test.c -ltskit
           cd tskit/c
           meson build
